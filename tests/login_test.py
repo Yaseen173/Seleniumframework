@@ -41,7 +41,7 @@ class TestLogin():
             raise
         except:
             print('no exception ocurred')
-            currenttime = moment.now().strftime("%H-%M-%S_%d-%m_%Y")
+            currenttime = moment.now().strftime("%H-%M-%S_%d%m_%Y")
             testname = utils.whoami()
             screenshot = testname + "_" + currenttime
             allure.attach(self.driver.get_screenshot_as_png(), name=screenshot,
