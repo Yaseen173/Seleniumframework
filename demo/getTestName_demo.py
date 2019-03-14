@@ -1,9 +1,9 @@
 import inspect
 
 
-
-def MyFunc():
-    x = whoami()
-    print(x)
-
-MyFunc()
+#
+# def MyFunc():
+#     x = whoami()
+#     print(x)
+#
+# MyFunc()

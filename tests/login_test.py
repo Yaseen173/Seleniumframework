@@ -30,7 +30,7 @@ class TestLogin():
             time.sleep(2)
             homepage.click_on_logout_button()
             x = driver.title
-            assert x == 'abc'
+            assert x == 'OrangeHRM'
         except AssertionError:
             print('I knew my Mistake')
             currenttime = moment.now().strftime("%H-%M-%S_%d-%m_%Y")
