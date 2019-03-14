@@ -7,8 +7,6 @@ import pytest_html
 import time
 import allure
 import moment
-
-
 @pytest.mark.usefixtures("test_setup")
 class TestLogin():
 
